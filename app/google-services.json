@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "446770437475",
+    "firebase_url": "https://bimoapp-ed23e.firebaseio.com",
+    "project_id": "bimoapp-ed23e",
+    "storage_bucket": "bimoapp-ed23e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446770437475:android:326349c47d689129",
+        "android_client_info": {
+          "package_name": "br.com.bimo.bimoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446770437475-np8rq26eke9b5p5sk0i2hmfd6h6rvtrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.bimo.bimoapp",
+            "certificate_hash": "67b0957186f3046ad77aa93ec7f8b2160b89f094"
+          }
+        },
+        {
+          "client_id": "446770437475-2n1qu8jg8as75nva8uemmv4dvpe2isgn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "446770437475-2n1qu8jg8as75nva8uemmv4dvpe2isgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRG8o1d4OUxnZ-eA4n90BRjFD_qmSiv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446770437475-2n1qu8jg8as75nva8uemmv4dvpe2isgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

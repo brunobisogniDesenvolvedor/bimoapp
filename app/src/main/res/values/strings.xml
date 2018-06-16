@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BimoApp</string>
+    <string name="ciclista">Ciclista</string>
+    <string name="administrador">Administrador</string>
+    <string name="u_b_e_r">U B E R</string>
+     <string name="looking_for_the_rider_app">LOOKING FOR THE RIDER APP?</string>
+    <string name="partner">PARTNER</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="looking_for_ride_app">looking for ride app</string>
+    <string name="register">REGISTER</string>
 </resources>

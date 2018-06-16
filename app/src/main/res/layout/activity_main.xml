@@ -1,30 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context="br.com.bimo.bimoapp.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
-    <Button
+    <LinearLayout
 
-        android:id="@+id/ciclista"
-        android:layout_width="409dp"
-        android:layout_height="match_parent"
-        android:text="Ciclista"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+        android:text="@string/u_b_e_r"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/partner"
+            android:layout_marginTop="20sp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 
-        />
+    <TextView
+        android:id="@+id/txt_rider_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/looking_for_ride_app"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
 
-    <Button
-
-        android:id="@+id/administrador"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@id/txt_rider_app"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Administrador"
+        android:layout_height="wrap_content">
 
+        <Button
+            android:id="@+id/btnSingIn"
+            android:background="@drawable/btn_sign_in_background"
+            android:textColor="@android:color/white"
+            android:text="@string/sign_in"
+            android:layout_marginEnd="6dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
 
-        />
+        <Button
+            android:id="@+id/btnRegister"
+            android:background="@drawable/btn_register_background"
+            android:textColor="@color/btnRegister"
+            android:text="@string/register"
+            android:layout_marginStart="6dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
 
-</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
